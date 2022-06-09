@@ -1,0 +1,350 @@
+
+body {
+	background-color: white;
+	padding-bottom: 10rem;
+}
+
+
+/* {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+} */
+
+
+a:hover {
+	color: rgb(231, 105, 21);
+}
+
+a {
+	color: rgb(87, 87, 87);
+}
+
+.cart a:hover {
+	color: rgb(255, 255, 255);
+}
+
+
+
+/*----------------------------------------------- NAV - TOP MENU ------------------------------------------------*/
+
+.flexcont-horizmenu {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0rem 1rem;
+	border-bottom: 1px solid rgb(148, 148, 148);
+	color: rgb(88, 88, 88);
+}
+
+.cart {
+	background-color:  rgb(231, 105, 21);
+}
+
+
+
+ .push {
+	 margin-left: auto;
+ }
+
+
+
+.site-logo {
+	min-width: 200px;
+	
+}
+
+
+/*-------------------------------------- SECOND MENU - SHOPPING CATEGORIES -------------------------------------*/
+
+.flexcont-shopcategories {
+	display: flex;
+	justify-content: flex-start;
+	padding: 1rem 1rem;
+	color: rgb(88, 88, 88);
+}
+
+
+li {
+	padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------- HEADER - MAIN HERO PRODUCT FEATURE - LOTION --------------------------------*/
+
+.site-feature-list {
+	background: url(../img/header-feature-lotion.jpg) no-repeat center;
+	max-width: 2000px;
+	padding: 6rem 0 6rem 0rem;
+	text-align: center;
+	color: rgb(88, 88, 88);
+}
+
+
+.feature-box {
+	background-color: rgba(255, 255, 255, 0.527);
+	padding: 3rem 4rem;
+	margin: 0 0 10rem 0;
+	
+}
+
+
+
+
+h1 {
+	padding-bottom: 1rem;
+	font-size: 4rem;
+	font-weight: 100;
+}
+
+
+
+p {
+	padding-bottom: 1rem;
+	
+}
+
+
+button {
+	padding: 1rem;
+	border-radius: 2rem;
+	border-style: none;
+	background-color: rgb(231, 105, 21);
+	color: white;
+}
+
+
+.review {
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------- MAIN - FLEXBOX RESPONSIVE GRID - MORE FEAUTURED PRODUCTS ------------------------------*/
+
+
+.flexbox-respgrid {
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	color: rgb(88, 88, 88);
+	padding: 4rem 0;
+	height: 40rem;
+}
+ 
+
+
+div > div {
+	padding: 1rem 1rem;
+	text-align: center;
+	line-height: 1.8;
+	flex: 1;
+}
+
+
+
+
+
+/* Flexbox Responsive Grid Media Queries */
+
+
+@media(min-width: 835px) {
+
+	.menu {
+		display: none;
+	}
+}
+
+
+@media(max-width: 1600px) {
+	 .flexbox-respgrid div {
+		 flex: 33%;
+	 }
+
+
+}
+
+
+
+@media(max-width: 850px) {
+	.flexbox-respgrid div {
+		flex: 50%;
+	}
+
+}
+
+
+
+@media(max-width: 500px) {
+	.flexbox-respgrid div {
+		flex: 100%;
+	}
+
+}
+
+
+
+/* Menu Disappearing Media Queries */
+
+@media(max-width: 830px) {
+	.menu-hide,
+	.flexcont-shopcategories {
+		display: none;
+	}
+
+	.site-logo {
+		margin: auto 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feature-box {
+margin: 1rem;
+}
+
+
+
+
+
+
+.feature-soap {
+background: url(../img/fast-female-soap.jpg) no-repeat;
+background-size: 100%;
+
+}
+
+.feature-soap .material-icons {
+	padding-top: 2rem;
+}
+
+
+
+
+
+
+.winter-care {
+background: url(../img/winter-care.jpg) no-repeat;
+background-size: 100%;
+
+}
+
+.winter-care .material-icons {
+	padding-top: 2rem;
+}
+
+
+
+
+
+.face-care {
+background: url(../img/skin-care.jpg) no-repeat;
+background-size: 100%;
+
+}
+
+.face-care .material-icons {
+	padding-top: 2rem;
+}
+
+
+
+
+
+.serenity-scent {
+background: url(../img/serenity.jpg) no-repeat;
+background-size: 100%;
+
+}
+
+.serenity-scent .material-icons {
+	padding-top: 1rem;
+}
+
+
+
+
+
+.white-box-bkgd {
+	background-color: rgba(255, 255, 255, 0.76);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
